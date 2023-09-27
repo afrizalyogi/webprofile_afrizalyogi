@@ -111,6 +111,16 @@ footer h1 a {
 	color: var(--white-primary);
 }
 
+#about .grid-2 {
+	gap: 24px;
+	margin-bottom: 64px;
+	align-items: center;
+}
+
+#about .grid-2 img {
+	width: 90%;
+}
+
 #contact {
 	background-color: var(--white-bg);
 }
@@ -194,6 +204,10 @@ footer h1 a {
 .navbar-right ul li.active a {
 	font-weight: 700;
 	color: var(--blue-primary);
+}
+
+.section-title {
+	margin-bottom: 48px;
 }
 
 .hero-left h1 b {
@@ -397,6 +411,16 @@ footer h1 a {
 
 	#hero .flex {
 		flex-wrap: wrap-reverse;
+	}
+
+	#about .grid-2 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#about .grid-2 img {
+		width: 50%;
 	}
 
 	.flex {
